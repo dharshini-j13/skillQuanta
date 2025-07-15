@@ -1,0 +1,40 @@
+.skillforge-homepage {
+  text-align: center;
+  padding: 50px;
+}
+
+.skillforge-homepage h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.skillforge-homepage p {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.red-box {
+  background-color: red;
+}
+
+.blue-box {
+  background-color: blue;
+}
+
+.color-toggle-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.color-toggle-btn:hover {
+  background-color: #ddd;
+}
